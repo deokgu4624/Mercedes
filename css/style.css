@@ -65,6 +65,9 @@ body{
 #section-1{
     position: relative;
 }
+#section-2{
+    margin: 0 5vw;
+}
 #title{
     font-family: "abnes";
     font-size: 10vw;
