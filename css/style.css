@@ -51,7 +51,8 @@ fieldset{border:none}
 /* ---- LAYOUT ---- */
 body{
     background-color: black;
-    font-size: 16px;
+    font-size: 2vw;
+    
 }
 #wrap{
     color: white;
