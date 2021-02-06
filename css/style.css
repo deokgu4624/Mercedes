@@ -47,10 +47,15 @@ fieldset{border:none}
     src: url("../fonts/Dream\ MMA.ttf");
     font-family: "Dream\ MMA";
 }
+@font-face{
+    src: url("../fonts/Roboto-Thin.ttf");
+    font-family: "Roboto-Thin";
+}
 
 /* ---- LAYOUT ---- */
 body{
     background-color: black;
+    font-family: "Roboto-Thin";
     font-size: 2vw;
     
 }
@@ -65,9 +70,14 @@ body{
 }
 #section-1{
     position: relative;
+    margin-bottom: 30vw;
 }
 #section-2{
+    margin-bottom: 100vw;
+}
+.section{
     margin: 0 5vw;
+    position: relative;
 }
 #title{
     font-family: "abnes";
@@ -81,6 +91,32 @@ body{
     font-family: "Dream\ MMA";
     font-size: 5vw;
 }
+.asdf{
+    font-family: "Dream\ MMA";
+    font-size: 3vw;
+    margin-bottom: 20vw;
+}
+#intro{
+    width: 40vw;
+}
 img{
+    width: 50%;
+}
+#img1{
+    position: absolute;
+    top: 11vw; right: 0;
+    width: 50%;
+    z-index: -1;
+}
+#img2{
+    position: absolute;
+    top: 0; left: 0;
+    width: 70%;
+    z-index: -2;
+}
+#img3{
+    position: absolute;
+    top: 80vw; left: 20vw;
     width: 100%;
+    z-index: -1;
 }
