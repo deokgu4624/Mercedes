@@ -51,6 +51,10 @@ fieldset{border:none}
     src: url("../fonts/Roboto-Thin.ttf");
     font-family: "Roboto-Thin";
 }
+@font-face{
+    src: url("../fonts/tarrgetoutital.ttf");
+    font-family: "tarrgetoutital";
+}
 
 /* ---- LAYOUT ---- */
 body{
@@ -80,8 +84,8 @@ body{
     position: relative;
 }
 #title{
-    font-family: "abnes";
-    font-size: 10vw;
+    font-family: "tarrgetoutital";
+    font-size: 12vw;
     position: absolute;
     top: 50%; left: 50%; transform: translate(-50%,-50%);
     color: white;
@@ -91,13 +95,20 @@ body{
     font-family: "Dream\ MMA";
     font-size: 5vw;
 }
-.asdf{
+#restraints{
     font-family: "Dream\ MMA";
     font-size: 3vw;
     margin-bottom: 20vw;
 }
 #intro{
     width: 40vw;
+    margin-bottom: 10vw;
+}
+#boundaries{
+    margin-bottom: 5vw;
+}
+#rethink{
+    margin-bottom: 5vw;
 }
 img{
     width: 50%;
@@ -119,7 +130,7 @@ img{
 }
 #img3{
     position: absolute;
-    top: 80vw; left: 0;
-    width: 100%;
+    top: 50vw; left: 0;
+    width: 80%;
     z-index: -2;
 }
