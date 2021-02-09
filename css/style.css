@@ -48,8 +48,8 @@ fieldset{border:none}
     font-family: "Dream\ MMA";
 }
 @font-face{
-    src: url("../fonts/Roboto-Thin.ttf");
-    font-family: "Roboto-Thin";
+    src: url("../fonts/Longhaul.ttf");
+    font-family: "Longhaul";
 }
 @font-face{
     src: url("../fonts/tarrgetoutital.ttf");
@@ -59,8 +59,8 @@ fieldset{border:none}
 /* ---- LAYOUT ---- */
 body{
     background-color: black;
-    font-family: "Roboto-Thin";
-    font-size: 2vw;
+    font-family: "Longhaul";
+    font-size: 5vw;
     
 }
 #wrap{
@@ -92,16 +92,18 @@ body{
     z-index: 2;
 }
 .subtitle{
-    font-family: "Dream\ MMA";
-    font-size: 5vw;
+    font-family: "tarrgetoutital";
+    font-size: 10vw;
+    margin-bottom: 1vw;
 }
 #restraints{
     font-family: "Dream\ MMA";
     font-size: 3vw;
-    margin-bottom: 20vw;
+    
 }
 #intro{
     width: 40vw;
+    margin-top: 40vw;
     margin-bottom: 10vw;
 }
 #boundaries{
@@ -118,13 +120,13 @@ img{
 }
 #img1{
     position: absolute;
-    top: 0; left: 0;
+    top: 30vw; left: 0;
     width: 70%;
     z-index: -2;
 }
 #img2{
     position: absolute;
-    top: 20vw; right: 0;
+    top: 45vw; right: 0;
     width: 50%;
     z-index: -1;
 }
