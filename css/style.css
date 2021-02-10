@@ -40,12 +40,12 @@ input[type=number]{-moz-appearance:textfield}
 input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 fieldset{border:none}
 @font-face{
-    src: url("../fonts/SwipeRaceDemo.ttf");
-    font-family: "SwipeRaceDemo";
+    src: url("../fonts/paladins.ttf");
+    font-family: "paladins";
 }
 @font-face{
-    src: url("../fonts/Dream\ MMA.ttf");
-    font-family: "Dream\ MMA";
+    src: url("../fonts/Roboto-Bold.ttf");
+    font-family: "Roboto-Bold";
 }
 @font-face{
     src: url("../fonts/Roboto-Thin.ttf");
@@ -59,7 +59,7 @@ fieldset{border:none}
 
 /* ---- LAYOUT ---- */
 body{
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     font-family: "Roboto-Thin";
     font-size: 2vw;
     
@@ -92,18 +92,28 @@ body{
     color: white;
     z-index: 2;
 }
-.subtitle{
+#subtitle-1{
     font-family: "tarrgetoutital";
     font-size: 4vw;
     margin-bottom: 1vw;
     position: absolute;
-    left: 50%; transform: translateX(-50%);
+    left: 40%;
+    transform: translateX(-50%);
+}
+#subtitle-2{
+    font-family: "tarrgetoutital";
+    font-size: 4vw;
+    margin-bottom: 1vw;
+    position: absolute;
+    top: 2vw;
+    left: 54%;
+    transform: translateX(-50%);
 }
 #restraints{
-    font-family: "Dream\ MMA";
-    font-size: 2vw;
+    font-family: "Roboto-Thin";
+    font-size: 1.5vw;
     position: absolute;
-    top: 12vw; left: 23%;
+    top: 6vw; left: 50%; transform: translateX(-50%);
 }
 #intro{
     width: 46vw;
