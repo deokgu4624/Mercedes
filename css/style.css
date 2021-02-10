@@ -121,6 +121,13 @@ body{
     position: absolute;
     top: 56vw;
 }
+#innovation{
+    width: 46vw;
+    margin-bottom: 10vw;
+    position: absolute;
+    top: 72vw;
+    font-size: 1.4vw;
+}
 #boundaries{
     margin-bottom: 5vw;
     
