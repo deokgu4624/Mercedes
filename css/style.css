@@ -40,27 +40,28 @@ input[type=number]{-moz-appearance:textfield}
 input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 fieldset{border:none}
 @font-face{
-    src: url("../fonts/abnes.ttf");
-    font-family: "abnes";
+    src: url("../fonts/SwipeRaceDemo.ttf");
+    font-family: "SwipeRaceDemo";
 }
 @font-face{
     src: url("../fonts/Dream\ MMA.ttf");
     font-family: "Dream\ MMA";
 }
 @font-face{
-    src: url("../fonts/Longhaul.ttf");
-    font-family: "Longhaul";
+    src: url("../fonts/Roboto-Thin.ttf");
+    font-family: "Roboto-Thin";
 }
 @font-face{
     src: url("../fonts/tarrgetoutital.ttf");
     font-family: "tarrgetoutital";
 }
 
+
 /* ---- LAYOUT ---- */
 body{
     background-color: black;
-    font-family: "Longhaul";
-    font-size: 5vw;
+    font-family: "Roboto-Thin";
+    font-size: 2vw;
     
 }
 #wrap{
@@ -74,7 +75,7 @@ body{
 }
 #section-1{
     position: relative;
-    margin-bottom: 5vw;
+    margin-bottom: 1vw;
 }
 #section-2{
     margin-bottom: 100vw;
@@ -85,7 +86,7 @@ body{
 }
 #title{
     font-family: "tarrgetoutital";
-    font-size: 12vw;
+    font-size: 6vw;
     position: absolute;
     top: 50%; left: 50%; transform: translate(-50%,-50%);
     color: white;
@@ -93,21 +94,26 @@ body{
 }
 .subtitle{
     font-family: "tarrgetoutital";
-    font-size: 10vw;
+    font-size: 4vw;
     margin-bottom: 1vw;
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
 }
 #restraints{
     font-family: "Dream\ MMA";
-    font-size: 3vw;
-    
+    font-size: 2vw;
+    position: absolute;
+    top: 12vw; left: 23%;
 }
 #intro{
-    width: 40vw;
-    margin-top: 40vw;
+    width: 46vw;
     margin-bottom: 10vw;
+    position: absolute;
+    top: 56vw;
 }
 #boundaries{
     margin-bottom: 5vw;
+    
 }
 #rethink{
     margin-bottom: 5vw;
@@ -120,13 +126,13 @@ img{
 }
 #img1{
     position: absolute;
-    top: 30vw; left: 0;
+    top: 11vw; left: -4vw;
     width: 70%;
     z-index: -2;
 }
 #img2{
     position: absolute;
-    top: 45vw; right: 0;
+    top: 37vw; right: -4vw;
     width: 50%;
     z-index: -1;
 }
